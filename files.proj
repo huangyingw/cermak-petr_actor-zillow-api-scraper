@@ -15,6 +15,7 @@
 "./package.json"
 "./prunefile.conf"
 "./prunefix.conf"
+"./rsync.files"
 "./setup.cfg"
 "./src/constants.js"
 "./src/functions.js"
