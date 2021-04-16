@@ -1,0 +1,250 @@
+2021-04-16T04:29:19.732Z ACTOR: Pulling Docker image from repository.
+2021-04-16T04:29:20.771Z ACTOR: Creating Docker container.
+2021-04-16T04:29:20.919Z ACTOR: Starting Docker container.
+2021-04-16T04:29:23.542Z INFO  System info {"apifyVersion":"1.1.1","apifyClientVersion":"1.0.5","osType":"Linux","nodeVersion":"v14.16.0"}
+2021-04-16T04:29:24.003Z INFO
+2021-04-16T04:29:24.010Z =======
+2021-04-16T04:29:24.011Z You can pick specific proxy groups for better experience:
+2021-04-16T04:29:24.012Z 
+2021-04-16T04:29:24.013Z *  RESIDENTIAL
+2021-04-16T04:29:24.014Z 
+2021-04-16T04:29:24.014Z =======
+2021-04-16T04:29:26.018Z INFO  PuppeteerCrawler:AutoscaledPool: state {"currentConcurrency":0,"desiredConcurrency":1,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":null},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.6,"actualRatio":null},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":null},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":null}}}
+2021-04-16T04:29:30.520Z INFO  Trying to get queryId...
+2021-04-16T04:29:35.280Z WARN  Stealth: Evaluating hiding tricks in too many iframes (limit: 10).You might experience some performance issues. Try setting 'stealth' false
+2021-04-16T04:30:26.030Z INFO  PuppeteerCrawler:AutoscaledPool: state {"currentConcurrency":1,"desiredConcurrency":1,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":0},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.6,"actualRatio":0},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":0.212},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":0}}}
+2021-04-16T04:30:26.058Z INFO  Statistics: PuppeteerCrawler request statistics: {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":null,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":0,"requestsTotal":0,"crawlerRuntimeMillis":60182,"retryHistogram":[]}
+2021-04-16T04:30:30.714Z ERROR PuppeteerCrawler: handleRequestFunction failed, reclaiming failed request back to the list or queue {"url":"https://www.zillow.com/homes/","retryCount":1,"id":"kJBuHTLzygONF9y"}
+2021-04-16T04:30:30.715Z   Error: Failed to find queryId
+2021-04-16T04:30:30.715Z       at /home/myuser/src/functions.js:116:40
+2021-04-16T04:30:30.716Z       at async PuppeteerCrawler.handlePageFunction (/home/myuser/src/main.js:426:52)
+2021-04-16T04:30:30.716Z       at async PuppeteerCrawler._handleRequestFunction (/home/myuser/node_modules/apify/build/crawlers/browser_crawler.js:324:13)
+2021-04-16T04:30:30.717Z       at async PuppeteerCrawler._runTaskFunction (/home/myuser/node_modules/apify/build/crawlers/basic_crawler.js:423:13)
+2021-04-16T04:30:30.717Z       at async AutoscaledPool._maybeRunTask (/home/myuser/node_modules/apify/build/autoscaling/autoscaled_pool.js:388:13)
+2021-04-16T04:30:36.908Z INFO  Trying to get queryId...
+2021-04-16T04:30:47.338Z WARN  Stealth: Evaluating hiding tricks in too many iframes (limit: 10).You might experience some performance issues. Try setting 'stealth' false
+2021-04-16T04:31:26.035Z INFO  PuppeteerCrawler:AutoscaledPool: state {"currentConcurrency":1,"desiredConcurrency":1,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":0},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.6,"actualRatio":0},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":0.19},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":0}}}
+2021-04-16T04:31:26.058Z INFO  Statistics: PuppeteerCrawler request statistics: {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":null,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":0,"requestsTotal":0,"crawlerRuntimeMillis":120182,"retryHistogram":[]}
+2021-04-16T04:31:37.150Z ERROR PuppeteerCrawler: handleRequestFunction failed, reclaiming failed request back to the list or queue {"url":"https://www.zillow.com/homes/","retryCount":2,"id":"kJBuHTLzygONF9y"}
+2021-04-16T04:31:37.151Z   Error: Failed to find queryId
+2021-04-16T04:31:37.180Z       at /home/myuser/src/functions.js:116:40
+2021-04-16T04:31:37.181Z       at async PuppeteerCrawler.handlePageFunction (/home/myuser/src/main.js:426:52)
+2021-04-16T04:31:37.182Z       at async PuppeteerCrawler._handleRequestFunction (/home/myuser/node_modules/apify/build/crawlers/browser_crawler.js:324:13)
+2021-04-16T04:31:37.183Z       at async PuppeteerCrawler._runTaskFunction (/home/myuser/node_modules/apify/build/crawlers/basic_crawler.js:423:13)
+2021-04-16T04:31:37.183Z       at async AutoscaledPool._maybeRunTask (/home/myuser/node_modules/apify/build/autoscaling/autoscaled_pool.js:388:13)
+2021-04-16T04:31:45.039Z INFO  Trying to get queryId...
+2021-04-16T04:31:55.432Z WARN  Stealth: Evaluating hiding tricks in too many iframes (limit: 10).You might experience some performance issues. Try setting 'stealth' false
+2021-04-16T04:32:26.037Z INFO  PuppeteerCrawler:AutoscaledPool: state {"currentConcurrency":1,"desiredConcurrency":1,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":0},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.6,"actualRatio":0},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":0.193},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":0}}}
+2021-04-16T04:32:26.058Z INFO  Statistics: PuppeteerCrawler request statistics: {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":null,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":0,"requestsTotal":0,"crawlerRuntimeMillis":180182,"retryHistogram":[]}
+2021-04-16T04:32:47.334Z ERROR PuppeteerCrawler: handleRequestFunction failed, reclaiming failed request back to the list or queue {"url":"https://www.zillow.com/homes/","retryCount":3,"id":"kJBuHTLzygONF9y"}
+2021-04-16T04:32:47.335Z   Error: Failed to find queryId
+2021-04-16T04:32:47.335Z       at /home/myuser/src/functions.js:116:40
+2021-04-16T04:32:47.336Z       at async PuppeteerCrawler.handlePageFunction (/home/myuser/src/main.js:426:52)
+2021-04-16T04:32:47.336Z       at async PuppeteerCrawler._handleRequestFunction (/home/myuser/node_modules/apify/build/crawlers/browser_crawler.js:324:13)
+2021-04-16T04:32:47.337Z       at async PuppeteerCrawler._runTaskFunction (/home/myuser/node_modules/apify/build/crawlers/basic_crawler.js:423:13)
+2021-04-16T04:32:47.337Z       at async AutoscaledPool._maybeRunTask (/home/myuser/node_modules/apify/build/autoscaling/autoscaled_pool.js:388:13)
+2021-04-16T04:32:54.182Z INFO  Trying to get queryId...
+2021-04-16T04:33:03.246Z WARN  Stealth: Evaluating hiding tricks in too many iframes (limit: 10).You might experience some performance issues. Try setting 'stealth' false
+2021-04-16T04:33:26.038Z INFO  PuppeteerCrawler:AutoscaledPool: state {"currentConcurrency":1,"desiredConcurrency":1,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":0},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.6,"actualRatio":0.019},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":0.172},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":0}}}
+2021-04-16T04:33:26.058Z INFO  Statistics: PuppeteerCrawler request statistics: {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":null,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":0,"requestsTotal":0,"crawlerRuntimeMillis":240182,"retryHistogram":[]}
+2021-04-16T04:33:54.642Z ERROR PuppeteerCrawler: handleRequestFunction failed, reclaiming failed request back to the list or queue {"url":"https://www.zillow.com/homes/","retryCount":4,"id":"kJBuHTLzygONF9y"}
+2021-04-16T04:33:54.645Z   Error: Failed to find queryId
+2021-04-16T04:33:54.646Z       at /home/myuser/src/functions.js:116:40
+2021-04-16T04:33:54.647Z       at async PuppeteerCrawler.handlePageFunction (/home/myuser/src/main.js:426:52)
+2021-04-16T04:33:54.648Z       at async PuppeteerCrawler._handleRequestFunction (/home/myuser/node_modules/apify/build/crawlers/browser_crawler.js:324:13)
+2021-04-16T04:33:54.651Z       at async PuppeteerCrawler._runTaskFunction (/home/myuser/node_modules/apify/build/crawlers/basic_crawler.js:423:13)
+2021-04-16T04:33:54.651Z       at async AutoscaledPool._maybeRunTask (/home/myuser/node_modules/apify/build/autoscaling/autoscaled_pool.js:388:13)
+2021-04-16T04:34:00.803Z INFO  Trying to get queryId...
+2021-04-16T04:34:10.110Z WARN  Stealth: Evaluating hiding tricks in too many iframes (limit: 10).You might experience some performance issues. Try setting 'stealth' false
+2021-04-16T04:34:26.044Z INFO  PuppeteerCrawler:AutoscaledPool: state {"currentConcurrency":1,"desiredConcurrency":1,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":0},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.6,"actualRatio":0},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":0.171},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":0}}}
+2021-04-16T04:34:26.064Z INFO  Statistics: PuppeteerCrawler request statistics: {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":null,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":0,"requestsTotal":0,"crawlerRuntimeMillis":300183,"retryHistogram":[]}
+2021-04-16T04:35:01.057Z ERROR PuppeteerCrawler: handleRequestFunction failed, reclaiming failed request back to the list or queue {"url":"https://www.zillow.com/homes/","retryCount":5,"id":"kJBuHTLzygONF9y"}
+2021-04-16T04:35:01.058Z   Error: Failed to find queryId
+2021-04-16T04:35:01.058Z       at /home/myuser/src/functions.js:116:40
+2021-04-16T04:35:01.059Z       at async PuppeteerCrawler.handlePageFunction (/home/myuser/src/main.js:426:52)
+2021-04-16T04:35:01.063Z       at async PuppeteerCrawler._handleRequestFunction (/home/myuser/node_modules/apify/build/crawlers/browser_crawler.js:324:13)
+2021-04-16T04:35:01.064Z       at async PuppeteerCrawler._runTaskFunction (/home/myuser/node_modules/apify/build/crawlers/basic_crawler.js:423:13)
+2021-04-16T04:35:01.065Z       at async AutoscaledPool._maybeRunTask (/home/myuser/node_modules/apify/build/autoscaling/autoscaled_pool.js:388:13)
+2021-04-16T04:35:07.642Z INFO  Trying to get queryId...
+2021-04-16T04:35:16.016Z WARN  Stealth: Evaluating hiding tricks in too many iframes (limit: 10).You might experience some performance issues. Try setting 'stealth' false
+2021-04-16T04:35:26.048Z INFO  PuppeteerCrawler:AutoscaledPool: state {"currentConcurrency":1,"desiredConcurrency":1,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":0},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.6,"actualRatio":0},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":0.173},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":0}}}
+2021-04-16T04:35:26.059Z INFO  Statistics: PuppeteerCrawler request statistics: {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":null,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":0,"requestsTotal":0,"crawlerRuntimeMillis":360182,"retryHistogram":[]}
+2021-04-16T04:36:07.856Z ERROR PuppeteerCrawler: handleRequestFunction failed, reclaiming failed request back to the list or queue {"url":"https://www.zillow.com/homes/","retryCount":6,"id":"kJBuHTLzygONF9y"}
+2021-04-16T04:36:08.931Z   Error: Failed to find queryId
+2021-04-16T04:36:11.787Z       at /home/myuser/src/functions.js:116:40
+2021-04-16T04:36:13.850Z       at async PuppeteerCrawler.handlePageFunction (/home/myuser/src/main.js:426:52)
+2021-04-16T04:36:19.680Z       at async PuppeteerCrawler._handleRequestFunction (/home/myuser/node_modules/apify/build/crawlers/browser_crawler.js:324:13)
+2021-04-16T04:36:21.241Z       at async PuppeteerCrawler._runTaskFunction (/home/myuser/node_modules/apify/build/crawlers/basic_crawler.js:423:13)
+2021-04-16T04:36:22.456Z       at async AutoscaledPool._maybeRunTask (/home/myuser/node_modules/apify/build/autoscaling/autoscaled_pool.js:388:13)
+2021-04-16T04:36:26.987Z INFO  PuppeteerCrawler:AutoscaledPool: state {"currentConcurrency":1,"desiredConcurrency":1,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":0},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.6,"actualRatio":0},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":0.145},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":0}}}
+2021-04-16T04:36:33.143Z INFO  Statistics: PuppeteerCrawler request statistics: {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":null,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":0,"requestsTotal":0,"crawlerRuntimeMillis":420182,"retryHistogram":[]}
+2021-04-16T04:36:45.753Z INFO  Trying to get queryId...
+2021-04-16T04:36:50.228Z WARN  Stealth: Evaluating hiding tricks in too many iframes (limit: 10).You might experience some performance issues. Try setting 'stealth' false
+2021-04-16T04:37:26.058Z INFO  Statistics: PuppeteerCrawler request statistics: {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":null,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":0,"requestsTotal":0,"crawlerRuntimeMillis":480182,"retryHistogram":[]}
+2021-04-16T04:37:26.059Z INFO  PuppeteerCrawler:AutoscaledPool: state {"currentConcurrency":1,"desiredConcurrency":1,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":0},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.6,"actualRatio":0.019},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":0.153},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":0}}}
+2021-04-16T04:37:45.935Z ERROR PuppeteerCrawler: handleRequestFunction failed, reclaiming failed request back to the list or queue {"url":"https://www.zillow.com/homes/","retryCount":7,"id":"kJBuHTLzygONF9y"}
+2021-04-16T04:37:45.936Z   Error: Failed to find queryId
+2021-04-16T04:37:45.937Z       at /home/myuser/src/functions.js:116:40
+2021-04-16T04:37:45.938Z       at async PuppeteerCrawler.handlePageFunction (/home/myuser/src/main.js:426:52)
+2021-04-16T04:37:45.939Z       at async PuppeteerCrawler._handleRequestFunction (/home/myuser/node_modules/apify/build/crawlers/browser_crawler.js:324:13)
+2021-04-16T04:37:45.940Z       at async PuppeteerCrawler._runTaskFunction (/home/myuser/node_modules/apify/build/crawlers/basic_crawler.js:423:13)
+2021-04-16T04:37:45.941Z       at async AutoscaledPool._maybeRunTask (/home/myuser/node_modules/apify/build/autoscaling/autoscaled_pool.js:388:13)
+2021-04-16T04:37:52.826Z INFO  Trying to get queryId...
+2021-04-16T04:37:59.609Z WARN  Stealth: Evaluating hiding tricks in too many iframes (limit: 10).You might experience some performance issues. Try setting 'stealth' false
+2021-04-16T04:38:26.059Z INFO  Statistics: PuppeteerCrawler request statistics: {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":null,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":0,"requestsTotal":0,"crawlerRuntimeMillis":540183,"retryHistogram":[]}
+2021-04-16T04:38:26.075Z INFO  PuppeteerCrawler:AutoscaledPool: state {"currentConcurrency":1,"desiredConcurrency":1,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":0},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.6,"actualRatio":0.038},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":0.157},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":0}}}
+2021-04-16T04:38:53.128Z ERROR PuppeteerCrawler: handleRequestFunction failed, reclaiming failed request back to the list or queue {"url":"https://www.zillow.com/homes/","retryCount":8,"id":"kJBuHTLzygONF9y"}
+2021-04-16T04:38:53.129Z   Error: Failed to find queryId
+2021-04-16T04:38:53.129Z       at /home/myuser/src/functions.js:116:40
+2021-04-16T04:38:53.130Z       at async PuppeteerCrawler.handlePageFunction (/home/myuser/src/main.js:426:52)
+2021-04-16T04:38:53.131Z       at async PuppeteerCrawler._handleRequestFunction (/home/myuser/node_modules/apify/build/crawlers/browser_crawler.js:324:13)
+2021-04-16T04:38:53.131Z       at async PuppeteerCrawler._runTaskFunction (/home/myuser/node_modules/apify/build/crawlers/basic_crawler.js:423:13)
+2021-04-16T04:38:53.132Z       at async AutoscaledPool._maybeRunTask (/home/myuser/node_modules/apify/build/autoscaling/autoscaled_pool.js:388:13)
+2021-04-16T04:38:59.697Z INFO  Trying to get queryId...
+2021-04-16T04:39:08.110Z WARN  Stealth: Evaluating hiding tricks in too many iframes (limit: 10).You might experience some performance issues. Try setting 'stealth' false
+2021-04-16T04:39:26.058Z INFO  Statistics: PuppeteerCrawler request statistics: {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":null,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":0,"requestsTotal":0,"crawlerRuntimeMillis":600182,"retryHistogram":[]}
+2021-04-16T04:39:26.109Z INFO  PuppeteerCrawler:AutoscaledPool: state {"currentConcurrency":1,"desiredConcurrency":1,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":0},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.6,"actualRatio":0.019},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":0.156},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":0}}}
+2021-04-16T04:39:59.934Z ERROR PuppeteerCrawler: handleRequestFunction failed, reclaiming failed request back to the list or queue {"url":"https://www.zillow.com/homes/","retryCount":9,"id":"kJBuHTLzygONF9y"}
+2021-04-16T04:39:59.935Z   Error: Failed to find queryId
+2021-04-16T04:39:59.935Z       at /home/myuser/src/functions.js:116:40
+2021-04-16T04:39:59.936Z       at async PuppeteerCrawler.handlePageFunction (/home/myuser/src/main.js:426:52)
+2021-04-16T04:39:59.937Z       at async PuppeteerCrawler._handleRequestFunction (/home/myuser/node_modules/apify/build/crawlers/browser_crawler.js:324:13)
+2021-04-16T04:39:59.938Z       at async PuppeteerCrawler._runTaskFunction (/home/myuser/node_modules/apify/build/crawlers/basic_crawler.js:423:13)
+2021-04-16T04:39:59.939Z       at async AutoscaledPool._maybeRunTask (/home/myuser/node_modules/apify/build/autoscaling/autoscaled_pool.js:388:13)
+2021-04-16T04:40:06.002Z INFO  Trying to get queryId...
+2021-04-16T04:40:13.141Z WARN  Stealth: Evaluating hiding tricks in too many iframes (limit: 10).You might experience some performance issues. Try setting 'stealth' false
+2021-04-16T04:40:26.058Z INFO  Statistics: PuppeteerCrawler request statistics: {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":null,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":0,"requestsTotal":0,"crawlerRuntimeMillis":660183,"retryHistogram":[]}
+2021-04-16T04:40:26.122Z INFO  PuppeteerCrawler:AutoscaledPool: state {"currentConcurrency":1,"desiredConcurrency":1,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":0},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.6,"actualRatio":0.019},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":0.159},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":0}}}
+2021-04-16T04:41:06.245Z ERROR PuppeteerCrawler: handleRequestFunction failed, reclaiming failed request back to the list or queue {"url":"https://www.zillow.com/homes/","retryCount":10,"id":"kJBuHTLzygONF9y"}
+2021-04-16T04:41:06.246Z   Error: Failed to find queryId
+2021-04-16T04:41:06.247Z       at /home/myuser/src/functions.js:116:40
+2021-04-16T04:41:06.248Z       at async PuppeteerCrawler.handlePageFunction (/home/myuser/src/main.js:426:52)
+2021-04-16T04:41:06.248Z       at async PuppeteerCrawler._handleRequestFunction (/home/myuser/node_modules/apify/build/crawlers/browser_crawler.js:324:13)
+2021-04-16T04:41:06.249Z       at async PuppeteerCrawler._runTaskFunction (/home/myuser/node_modules/apify/build/crawlers/basic_crawler.js:423:13)
+2021-04-16T04:41:06.250Z       at async AutoscaledPool._maybeRunTask (/home/myuser/node_modules/apify/build/autoscaling/autoscaled_pool.js:388:13)
+2021-04-16T04:41:12.387Z INFO  Trying to get queryId...
+2021-04-16T04:41:18.903Z WARN  Stealth: Evaluating hiding tricks in too many iframes (limit: 10).You might experience some performance issues. Try setting 'stealth' false
+2021-04-16T04:41:26.059Z INFO  Statistics: PuppeteerCrawler request statistics: {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":null,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":0,"requestsTotal":0,"crawlerRuntimeMillis":720183,"retryHistogram":[]}
+2021-04-16T04:41:26.126Z INFO  PuppeteerCrawler:AutoscaledPool: state {"currentConcurrency":1,"desiredConcurrency":1,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":0},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.6,"actualRatio":0.019},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":0.157},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":0}}}
+2021-04-16T04:42:12.631Z ERROR PuppeteerCrawler: handleRequestFunction failed, reclaiming failed request back to the list or queue {"url":"https://www.zillow.com/homes/","retryCount":11,"id":"kJBuHTLzygONF9y"}
+2021-04-16T04:42:12.632Z   Error: Failed to find queryId
+2021-04-16T04:42:12.633Z       at /home/myuser/src/functions.js:116:40
+2021-04-16T04:42:12.634Z       at async PuppeteerCrawler.handlePageFunction (/home/myuser/src/main.js:426:52)
+2021-04-16T04:42:12.635Z       at async PuppeteerCrawler._handleRequestFunction (/home/myuser/node_modules/apify/build/crawlers/browser_crawler.js:324:13)
+2021-04-16T04:42:12.690Z       at async PuppeteerCrawler._runTaskFunction (/home/myuser/node_modules/apify/build/crawlers/basic_crawler.js:423:13)
+2021-04-16T04:42:12.694Z       at async AutoscaledPool._maybeRunTask (/home/myuser/node_modules/apify/build/autoscaling/autoscaled_pool.js:388:13)
+2021-04-16T04:42:18.659Z INFO  Trying to get queryId...
+2021-04-16T04:42:26.059Z INFO  Statistics: PuppeteerCrawler request statistics: {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":null,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":0,"requestsTotal":0,"crawlerRuntimeMillis":780183,"retryHistogram":[]}
+2021-04-16T04:42:26.130Z INFO  PuppeteerCrawler:AutoscaledPool: state {"currentConcurrency":1,"desiredConcurrency":1,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":0},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.6,"actualRatio":0},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":0.148},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":0}}}
+2021-04-16T04:42:28.726Z WARN  Stealth: Evaluating hiding tricks in too many iframes (limit: 10).You might experience some performance issues. Try setting 'stealth' false
+2021-04-16T04:43:18.862Z ERROR PuppeteerCrawler: handleRequestFunction failed, reclaiming failed request back to the list or queue {"url":"https://www.zillow.com/homes/","retryCount":12,"id":"kJBuHTLzygONF9y"}
+2021-04-16T04:43:18.863Z   Error: Failed to find queryId
+2021-04-16T04:43:18.890Z       at /home/myuser/src/functions.js:116:40
+2021-04-16T04:43:18.892Z       at async PuppeteerCrawler.handlePageFunction (/home/myuser/src/main.js:426:52)
+2021-04-16T04:43:18.893Z       at async PuppeteerCrawler._handleRequestFunction (/home/myuser/node_modules/apify/build/crawlers/browser_crawler.js:324:13)
+2021-04-16T04:43:18.894Z       at async PuppeteerCrawler._runTaskFunction (/home/myuser/node_modules/apify/build/crawlers/basic_crawler.js:423:13)
+2021-04-16T04:43:18.895Z       at async AutoscaledPool._maybeRunTask (/home/myuser/node_modules/apify/build/autoscaling/autoscaled_pool.js:388:13)
+2021-04-16T04:43:25.339Z INFO  Trying to get queryId...
+2021-04-16T04:43:26.059Z INFO  Statistics: PuppeteerCrawler request statistics: {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":null,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":0,"requestsTotal":0,"crawlerRuntimeMillis":840183,"retryHistogram":[]}
+2021-04-16T04:43:26.209Z INFO  PuppeteerCrawler:AutoscaledPool: state {"currentConcurrency":1,"desiredConcurrency":1,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":0},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.6,"actualRatio":0},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":0.149},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":0}}}
+2021-04-16T04:43:36.908Z WARN  Stealth: Evaluating hiding tricks in too many iframes (limit: 10).You might experience some performance issues. Try setting 'stealth' false
+2021-04-16T04:44:25.531Z ERROR PuppeteerCrawler: handleRequestFunction failed, reclaiming failed request back to the list or queue {"url":"https://www.zillow.com/homes/","retryCount":13,"id":"kJBuHTLzygONF9y"}
+2021-04-16T04:44:25.536Z   Error: Failed to find queryId
+2021-04-16T04:44:25.538Z       at /home/myuser/src/functions.js:116:40
+2021-04-16T04:44:25.538Z       at async PuppeteerCrawler.handlePageFunction (/home/myuser/src/main.js:426:52)
+2021-04-16T04:44:25.539Z       at async PuppeteerCrawler._handleRequestFunction (/home/myuser/node_modules/apify/build/crawlers/browser_crawler.js:324:13)
+2021-04-16T04:44:25.540Z       at async PuppeteerCrawler._runTaskFunction (/home/myuser/node_modules/apify/build/crawlers/basic_crawler.js:423:13)
+2021-04-16T04:44:25.541Z       at async AutoscaledPool._maybeRunTask (/home/myuser/node_modules/apify/build/autoscaling/autoscaled_pool.js:388:13)
+2021-04-16T04:44:26.059Z INFO  Statistics: PuppeteerCrawler request statistics: {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":null,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":0,"requestsTotal":0,"crawlerRuntimeMillis":900184,"retryHistogram":[]}
+2021-04-16T04:44:26.214Z INFO  PuppeteerCrawler:AutoscaledPool: state {"currentConcurrency":0,"desiredConcurrency":1,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":0},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.6,"actualRatio":0},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":0.15},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":0}}}
+2021-04-16T04:44:31.781Z INFO  Trying to get queryId...
+2021-04-16T04:44:41.205Z WARN  Stealth: Evaluating hiding tricks in too many iframes (limit: 10).You might experience some performance issues. Try setting 'stealth' false
+2021-04-16T04:45:26.059Z INFO  Statistics: PuppeteerCrawler request statistics: {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":null,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":0,"requestsTotal":0,"crawlerRuntimeMillis":960184,"retryHistogram":[]}
+2021-04-16T04:45:26.217Z INFO  PuppeteerCrawler:AutoscaledPool: state {"currentConcurrency":1,"desiredConcurrency":1,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":0},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.6,"actualRatio":0},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":0.151},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":0}}}
+2021-04-16T04:45:32.027Z ERROR PuppeteerCrawler: handleRequestFunction failed, reclaiming failed request back to the list or queue {"url":"https://www.zillow.com/homes/","retryCount":14,"id":"kJBuHTLzygONF9y"}
+2021-04-16T04:45:32.073Z   Error: Failed to find queryId
+2021-04-16T04:45:32.075Z       at /home/myuser/src/functions.js:116:40
+2021-04-16T04:45:32.076Z       at async PuppeteerCrawler.handlePageFunction (/home/myuser/src/main.js:426:52)
+2021-04-16T04:45:32.076Z       at async PuppeteerCrawler._handleRequestFunction (/home/myuser/node_modules/apify/build/crawlers/browser_crawler.js:324:13)
+2021-04-16T04:45:32.077Z       at async PuppeteerCrawler._runTaskFunction (/home/myuser/node_modules/apify/build/crawlers/basic_crawler.js:423:13)
+2021-04-16T04:45:32.077Z       at async AutoscaledPool._maybeRunTask (/home/myuser/node_modules/apify/build/autoscaling/autoscaled_pool.js:388:13)
+2021-04-16T04:45:39.716Z INFO  Trying to get queryId...
+2021-04-16T04:45:48.927Z WARN  Stealth: Evaluating hiding tricks in too many iframes (limit: 10).You might experience some performance issues. Try setting 'stealth' false
+2021-04-16T04:46:26.059Z INFO  Statistics: PuppeteerCrawler request statistics: {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":null,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":0,"requestsTotal":0,"crawlerRuntimeMillis":1020183,"retryHistogram":[]}
+2021-04-16T04:46:26.227Z INFO  PuppeteerCrawler:AutoscaledPool: state {"currentConcurrency":1,"desiredConcurrency":1,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":0},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.6,"actualRatio":0},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":0.154},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":0}}}
+2021-04-16T04:46:41.552Z ERROR PuppeteerCrawler: handleRequestFunction failed, reclaiming failed request back to the list or queue {"url":"https://www.zillow.com/homes/","retryCount":15,"id":"kJBuHTLzygONF9y"}
+2021-04-16T04:46:41.553Z   Error: Failed to find queryId
+2021-04-16T04:46:41.554Z       at /home/myuser/src/functions.js:116:40
+2021-04-16T04:46:41.555Z       at async PuppeteerCrawler.handlePageFunction (/home/myuser/src/main.js:426:52)
+2021-04-16T04:46:41.556Z       at async PuppeteerCrawler._handleRequestFunction (/home/myuser/node_modules/apify/build/crawlers/browser_crawler.js:324:13)
+2021-04-16T04:46:41.556Z       at async PuppeteerCrawler._runTaskFunction (/home/myuser/node_modules/apify/build/crawlers/basic_crawler.js:423:13)
+2021-04-16T04:46:41.557Z       at async AutoscaledPool._maybeRunTask (/home/myuser/node_modules/apify/build/autoscaling/autoscaled_pool.js:388:13)
+2021-04-16T04:46:47.393Z INFO  Trying to get queryId...
+2021-04-16T04:46:56.116Z WARN  Stealth: Evaluating hiding tricks in too many iframes (limit: 10).You might experience some performance issues. Try setting 'stealth' false
+2021-04-16T04:47:26.059Z INFO  Statistics: PuppeteerCrawler request statistics: {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":null,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":0,"requestsTotal":0,"crawlerRuntimeMillis":1080183,"retryHistogram":[]}
+2021-04-16T04:47:26.233Z INFO  PuppeteerCrawler:AutoscaledPool: state {"currentConcurrency":1,"desiredConcurrency":1,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":0},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.6,"actualRatio":0},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":0.157},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":0}}}
+2021-04-16T04:47:47.545Z ERROR PuppeteerCrawler: handleRequestFunction failed, reclaiming failed request back to the list or queue {"url":"https://www.zillow.com/homes/","retryCount":16,"id":"kJBuHTLzygONF9y"}
+2021-04-16T04:47:47.545Z   Error: Failed to find queryId
+2021-04-16T04:47:47.546Z       at /home/myuser/src/functions.js:116:40
+2021-04-16T04:47:47.547Z       at async PuppeteerCrawler.handlePageFunction (/home/myuser/src/main.js:426:52)
+2021-04-16T04:47:47.548Z       at async PuppeteerCrawler._handleRequestFunction (/home/myuser/node_modules/apify/build/crawlers/browser_crawler.js:324:13)
+2021-04-16T04:47:47.549Z       at async PuppeteerCrawler._runTaskFunction (/home/myuser/node_modules/apify/build/crawlers/basic_crawler.js:423:13)
+2021-04-16T04:47:47.549Z       at async AutoscaledPool._maybeRunTask (/home/myuser/node_modules/apify/build/autoscaling/autoscaled_pool.js:388:13)
+2021-04-16T04:47:53.157Z INFO  Trying to get queryId...
+2021-04-16T04:47:57.549Z WARN  Stealth: Evaluating hiding tricks in too many iframes (limit: 10).You might experience some performance issues. Try setting 'stealth' false
+2021-04-16T04:48:26.060Z INFO  Statistics: PuppeteerCrawler request statistics: {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":null,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":0,"requestsTotal":0,"crawlerRuntimeMillis":1140184,"retryHistogram":[]}
+2021-04-16T04:48:26.247Z INFO  PuppeteerCrawler:AutoscaledPool: state {"currentConcurrency":1,"desiredConcurrency":1,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":0},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.6,"actualRatio":0.019},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":0.158},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":0}}}
+2021-04-16T04:48:53.415Z ERROR PuppeteerCrawler: handleRequestFunction failed, reclaiming failed request back to the list or queue {"url":"https://www.zillow.com/homes/","retryCount":17,"id":"kJBuHTLzygONF9y"}
+2021-04-16T04:48:56.436Z   Error: Failed to find queryId
+2021-04-16T04:48:59.198Z       at /home/myuser/src/functions.js:116:40
+2021-04-16T04:49:00.979Z       at async PuppeteerCrawler.handlePageFunction (/home/myuser/src/main.js:426:52)
+2021-04-16T04:49:02.311Z       at async PuppeteerCrawler._handleRequestFunction (/home/myuser/node_modules/apify/build/crawlers/browser_crawler.js:324:13)
+2021-04-16T04:49:04.523Z       at async PuppeteerCrawler._runTaskFunction (/home/myuser/node_modules/apify/build/crawlers/basic_crawler.js:423:13)
+2021-04-16T04:49:05.717Z       at async AutoscaledPool._maybeRunTask (/home/myuser/node_modules/apify/build/autoscaling/autoscaled_pool.js:388:13)
+2021-04-16T04:49:20.275Z INFO  Trying to get queryId...
+2021-04-16T04:49:26.060Z INFO  Statistics: PuppeteerCrawler request statistics: {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":null,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":0,"requestsTotal":0,"crawlerRuntimeMillis":1200185,"retryHistogram":[]}
+2021-04-16T04:49:26.253Z INFO  PuppeteerCrawler:AutoscaledPool: state {"currentConcurrency":1,"desiredConcurrency":1,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":0},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.6,"actualRatio":0.019},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":0.151},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":0}}}
+2021-04-16T04:49:29.349Z WARN  Stealth: Evaluating hiding tricks in too many iframes (limit: 10).You might experience some performance issues. Try setting 'stealth' false
+2021-04-16T04:50:20.444Z ERROR PuppeteerCrawler: handleRequestFunction failed, reclaiming failed request back to the list or queue {"url":"https://www.zillow.com/homes/","retryCount":18,"id":"kJBuHTLzygONF9y"}
+2021-04-16T04:50:20.445Z   Error: Failed to find queryId
+2021-04-16T04:50:20.446Z       at /home/myuser/src/functions.js:116:40
+2021-04-16T04:50:20.447Z       at async PuppeteerCrawler.handlePageFunction (/home/myuser/src/main.js:426:52)
+2021-04-16T04:50:20.454Z       at async PuppeteerCrawler._handleRequestFunction (/home/myuser/node_modules/apify/build/crawlers/browser_crawler.js:324:13)
+2021-04-16T04:50:20.455Z       at async PuppeteerCrawler._runTaskFunction (/home/myuser/node_modules/apify/build/crawlers/basic_crawler.js:423:13)
+2021-04-16T04:50:20.456Z       at async AutoscaledPool._maybeRunTask (/home/myuser/node_modules/apify/build/autoscaling/autoscaled_pool.js:388:13)
+2021-04-16T04:50:26.060Z INFO  Statistics: PuppeteerCrawler request statistics: {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":null,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":0,"requestsTotal":0,"crawlerRuntimeMillis":1260185,"retryHistogram":[]}
+2021-04-16T04:50:26.260Z INFO  PuppeteerCrawler:AutoscaledPool: state {"currentConcurrency":1,"desiredConcurrency":1,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":0},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.6,"actualRatio":0},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":0.151},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":0}}}
+2021-04-16T04:50:26.630Z INFO  Trying to get queryId...
+2021-04-16T04:50:33.420Z WARN  Stealth: Evaluating hiding tricks in too many iframes (limit: 10).You might experience some performance issues. Try setting 'stealth' false
+2021-04-16T04:51:26.060Z INFO  Statistics: PuppeteerCrawler request statistics: {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":null,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":0,"requestsTotal":0,"crawlerRuntimeMillis":1320184,"retryHistogram":[]}
+2021-04-16T04:51:26.263Z INFO  PuppeteerCrawler:AutoscaledPool: state {"currentConcurrency":1,"desiredConcurrency":1,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":0},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.6,"actualRatio":0},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":0.15},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":0}}}
+2021-04-16T04:51:26.943Z ERROR PuppeteerCrawler: handleRequestFunction failed, reclaiming failed request back to the list or queue {"url":"https://www.zillow.com/homes/","retryCount":19,"id":"kJBuHTLzygONF9y"}
+2021-04-16T04:51:26.944Z   Error: Failed to find queryId
+2021-04-16T04:51:26.944Z       at /home/myuser/src/functions.js:116:40
+2021-04-16T04:51:26.945Z       at async PuppeteerCrawler.handlePageFunction (/home/myuser/src/main.js:426:52)
+2021-04-16T04:51:26.946Z       at async PuppeteerCrawler._handleRequestFunction (/home/myuser/node_modules/apify/build/crawlers/browser_crawler.js:324:13)
+2021-04-16T04:51:26.946Z       at async PuppeteerCrawler._runTaskFunction (/home/myuser/node_modules/apify/build/crawlers/basic_crawler.js:423:13)
+2021-04-16T04:51:26.947Z       at async AutoscaledPool._maybeRunTask (/home/myuser/node_modules/apify/build/autoscaling/autoscaled_pool.js:388:13)
+2021-04-16T04:51:33.176Z INFO  Trying to get queryId...
+2021-04-16T04:51:40.206Z WARN  Stealth: Evaluating hiding tricks in too many iframes (limit: 10).You might experience some performance issues. Try setting 'stealth' false
+2021-04-16T04:52:26.060Z INFO  Statistics: PuppeteerCrawler request statistics: {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":null,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":0,"requestsTotal":0,"crawlerRuntimeMillis":1380184,"retryHistogram":[]}
+2021-04-16T04:52:26.328Z INFO  PuppeteerCrawler:AutoscaledPool: state {"currentConcurrency":1,"desiredConcurrency":1,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":0},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.6,"actualRatio":0},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":0.151},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":0}}}
+2021-04-16T04:52:33.434Z ERROR PuppeteerCrawler: handleRequestFunction failed, reclaiming failed request back to the list or queue {"url":"https://www.zillow.com/homes/","retryCount":20,"id":"kJBuHTLzygONF9y"}
+2021-04-16T04:52:33.434Z   Error: Failed to find queryId
+2021-04-16T04:52:33.435Z       at /home/myuser/src/functions.js:116:40
+2021-04-16T04:52:33.435Z       at async PuppeteerCrawler.handlePageFunction (/home/myuser/src/main.js:426:52)
+2021-04-16T04:52:33.436Z       at async PuppeteerCrawler._handleRequestFunction (/home/myuser/node_modules/apify/build/crawlers/browser_crawler.js:324:13)
+2021-04-16T04:52:33.436Z       at async PuppeteerCrawler._runTaskFunction (/home/myuser/node_modules/apify/build/crawlers/basic_crawler.js:423:13)
+2021-04-16T04:52:33.437Z       at async AutoscaledPool._maybeRunTask (/home/myuser/node_modules/apify/build/autoscaling/autoscaled_pool.js:388:13)
+2021-04-16T04:52:39.884Z INFO  Trying to get queryId...
+2021-04-16T04:52:46.355Z WARN  Stealth: Evaluating hiding tricks in too many iframes (limit: 10).You might experience some performance issues. Try setting 'stealth' false
+2021-04-16T04:53:26.061Z INFO  Statistics: PuppeteerCrawler request statistics: {"requestAvgFailedDurationMillis":null,"requestAvgFinishedDurationMillis":null,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":0,"requestsTotal":0,"crawlerRuntimeMillis":1440185,"retryHistogram":[]}
+2021-04-16T04:53:26.331Z INFO  PuppeteerCrawler:AutoscaledPool: state {"currentConcurrency":1,"desiredConcurrency":1,"systemStatus":{"isSystemIdle":true,"memInfo":{"isOverloaded":false,"limitRatio":0.2,"actualRatio":0},"eventLoopInfo":{"isOverloaded":false,"limitRatio":0.6,"actualRatio":0},"cpuInfo":{"isOverloaded":false,"limitRatio":0.4,"actualRatio":0.153},"clientInfo":{"isOverloaded":false,"limitRatio":0.3,"actualRatio":0}}}
+2021-04-16T04:53:40.247Z ERROR
+2021-04-16T04:53:40.249Z 
+2021-04-16T04:53:40.250Z Request https://www.zillow.com/homes/ failed too many times.
+2021-04-16T04:53:40.250Z 
+2021-04-16T04:53:40.251Z 
+2021-04-16T04:53:40.507Z INFO  PuppeteerCrawler: All the requests from request list and/or request queue have been processed, the crawler will shut down.
+2021-04-16T04:53:40.679Z INFO  PuppeteerCrawler: Final request statistics: {"requestsFinished":0,"requestsFailed":1,"retryHistogram":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,1],"requestAvgFailedDurationMillis":63231,"requestAvgFinishedDurationMillis":null,"requestsFinishedPerMinute":0,"requestsFailedPerMinute":0,"requestTotalDurationMillis":63231,"requestsTotal":1,"crawlerRuntimeMillis":1454803}
+2021-04-16T04:53:40.680Z INFO  Done with 0 listings!
